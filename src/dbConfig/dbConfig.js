@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-export async function connect(){
+export const connect = async() => {
 
     try{
 
